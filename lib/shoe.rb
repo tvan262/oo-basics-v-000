@@ -1,7 +1,7 @@
 # Make your shoe class here!
 
 class Shoe
-  attr_accessor :brand, :color, :genre
+  attr_accessor :brand, :color, :size, :material
   attr_reader :title
  
   def initialize(title)
